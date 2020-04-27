@@ -63,3 +63,14 @@ section p {
 .bottom .copyright p, .bottom .copyright a:hover{
     color: #6c6d83;
 }
+
+.card{
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: none;
+  }
+}
