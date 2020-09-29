@@ -1,9 +1,9 @@
-body{
-  background: #1e1f24;
+body {
+  background: #21447C;
   color: #333;
 }
 
-section{
+section {
   background-color: #e9ecef;
   border-radius: 4.8px;
   padding: 64px 32px 32px 32px;
@@ -15,58 +15,92 @@ section{
 section p {
   line-height: 30px;
 }
+
 .hero {
   margin-top: 20px;
 }
+
 .hero p {
   font-size: 20px;
 }
-.img-hero{
-  width: 80%;
-  border-radius: 50%;
-  margin-top: 30px;
-  -webkit-transform:rotate(-40deg);
-  -moz-transform: rotate(-40deg);
-  -ms-transform: rotate(-40deg);
-  -o-transform: rotate(-40deg);
-  transform: rotate(-40deg);
+
+.btn-blue {
+  background-color: #2255A4;
+  color: #fff;
+}
+
+.btn-blue:hover {
+  background-color: #2C6BD2;
+  color: #fff;
+}
+
+.btn-darkblue {
+  background-color: #21447C;
+  color: #fff;
+}
+
+.btn-darkblue:hover {
+  background-color: #2C6BD2;
+  color: #fff;
 }
 
 .section-padding {
-	padding: 10px 0;
-}
-.bottom {
-    background-color: #e9ecef;
-}
-.bottom .copyright {
-    color: #e5e5e5;
-    font-weight: 600;
-}
-.copyright a {
-    color: #2b80ee;
-    margin-left: 3px;
-    padding-right: 3px;
+  padding: 10px 0;
 }
 
-.btn-contact{
+.bottom {
+  background-color: #e9ecef;
+}
+
+.bottom .copyright {
+  color: #e5e5e5;
+  font-weight: 600;
+}
+
+.copyright a {
+  color: #2b80ee;
+  margin-left: 3px;
+  padding-right: 3px;
+}
+
+.btn-contact {
   margin-bottom: 10px;
 }
+
 .bottom p {
-    margin-bottom: 0;
-    line-height: 50px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #333;
-}
-.copyright p span {
-    color: #333;
-}
-.bottom .copyright p, .bottom .copyright a:hover{
-    color: #6c6d83;
+  margin-bottom: 0;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
 }
 
-.card{
+.copyright p span {
+  color: #333;
+}
+
+.bottom .copyright p,
+.bottom .copyright a:hover {
+  color: #6c6d83;
+}
+
+.card {
   margin-bottom: 30px;
+  height: 100%;
+}
+
+.card-img-top {
+  margin: 10px 0;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #21447C;
+  text-align: center;
+}
+
+.card-text {
+  font-size: small;
 }
 
 @media (max-width: 768px) {
